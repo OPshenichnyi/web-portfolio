@@ -1,5 +1,5 @@
 {
-  "name": "vite-sass-template",
+  "name": "web-portfolio",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -8,7 +8,7 @@
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
     "dev": "vite",
-    "build": "vite build --base=/vite-sass-template/",
+    "build": "vite build --base=/web-portfolio/",
     "preview": "vite preview",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "watch": "npx vite build --watch"
