@@ -1,0 +1,31 @@
+body{
+    color: $white_color;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-weight: 600px;
+}
+
+p{
+    font-weight: 400px;
+}
+
+.section{
+    background-color: $black_primery;
+    margin: auto;
+    max-width: 375px;
+    padding: 0 28px;
+}
+
+@media (min-width: 768px) {
+.section{
+    max-width: 582px;
+}
+}
+
+@media (min-width: 1440px) {
+.section{
+    max-width: 1440px;
+}
+}

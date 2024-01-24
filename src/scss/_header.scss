@@ -1,0 +1,22 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.phone{
+    flex-shrink: 0;
+}
+
+.contact{
+    font-style: normal;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

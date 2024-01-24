@@ -1,0 +1,14 @@
+.hero{
+    position: relative;
+    max-width: 320px;
+    // max-height: 274px;
+}
+.img-hero{
+    flex-shrink: 0;
+}
+.svg-dev-symbol{
+    flex-shrink: 0;
+    position: absolute;
+    left: -11px;
+    top: -9px;
+}
