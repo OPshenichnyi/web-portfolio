@@ -117,22 +117,22 @@ meter {
 }
 @font-face {
   font-family: "Inter";
-  src: url("/OPshenichnyi/web-portfolio/fonts/Inter-Light.ttf") format("truetype");
+  src: url("/web-portfolio/fonts/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
 @font-face {
   font-family: "Inter";
-  src: url("/OPshenichnyi/web-portfolio/fonts/Inter-Regular.ttf") format("truetype");
+  src: url("/web-portfolio/fonts/Inter-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Inter";
-  src: url("/OPshenichnyi/web-portfolio/fonts/Inter-Medium.ttf") format("truetype");
+  src: url("/web-portfolio/fonts/Inter-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 @font-face {
   font-family: "Inter";
-  src: url("/OPshenichnyi/web-portfolio/fonts/Inter-SemiBold.ttf") format("truetype");
+  src: url("/web-portfolio/fonts/Inter-SemiBold.ttf") format("truetype");
   font-weight: 600;
 }
 body {
