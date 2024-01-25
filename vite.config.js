@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
+import VitePluginSvgo from 'vite-plugin-svgo';
 
 export default defineConfig({
   plugins: [
@@ -27,8 +27,9 @@ export default defineConfig({
       }),
       apply: 'serve',
     },
-    createSvgSpritePlugin({
-      symbolId: 'icon-[name]-[hash]',
+    VitePluginSvgo({
+      name: 'cleanupIDs',
+      active: false,
     }),
   ],
   build: {
