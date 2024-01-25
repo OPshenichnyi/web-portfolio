@@ -5,24 +5,9 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import ViteSvgSpriteWrapper from 'vite-svg-sprite-wrapper';
 
 export default defineConfig({
   plugins: [
-    ViteSvgSpriteWrapper({
-      /**
-       * Input directory
-       *
-       * @default 'src/assets/images/svg/*.svg'
-       */
-      svg: '/src/img/icons/*.svg',
-      /**
-       * Output directory
-       *
-       * @default 'src/public/images'
-       */
-      upload: '/public/',
-    }),
     ViteImageOptimizer({
       png: {
         quality: 86,
