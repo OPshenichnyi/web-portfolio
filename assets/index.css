@@ -182,6 +182,9 @@ p {
           align-items: center;
   gap: 5px;
 }
+.burger-menu {
+  background-image: url("/public/sprite.svg");
+}
 .hero {
   position: relative;
   max-width: 320px;
