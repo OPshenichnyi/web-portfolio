@@ -7,10 +7,15 @@ import { fileURLToPath, URL } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
 
 export default defineConfig({
   base: '/web-portfolio/',
   plugins: [
+    createSvgSpritePlugin({
+      include: '**/icons/**/*.svg',
+      symbolId: 'icon-[name]-[hash]',
+    }),
     ViteImageOptimizer({
       png: {
         quality: 86,
