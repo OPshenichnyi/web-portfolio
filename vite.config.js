@@ -3,16 +3,11 @@ import imageminWebp from 'imagemin-webp';
 import path from 'path';
 import { defineConfig } from 'vite';
 import glob from 'fast-glob';
-import { fileURLToPath, URL } from 'url';
+import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
 
 export default defineConfig({
-  base: '/web-portfolio/',
   plugins: [
-    createSvgSpritePlugin(),
     ViteImageOptimizer({
       png: {
         quality: 86,
