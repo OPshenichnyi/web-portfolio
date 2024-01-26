@@ -5,10 +5,15 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import ViteSvgSpriteWrapper from 'vite-svg-sprite-wrapper';
 
 export default defineConfig({
   base: '/web-portfolio/',
   plugins: [
+    ViteSvgSpriteWrapper({
+      icons: 'src/img/icons/*.svg',
+      outputDir: 'assets/img',
+    }),
     ViteImageOptimizer({
       png: {
         quality: 86,
