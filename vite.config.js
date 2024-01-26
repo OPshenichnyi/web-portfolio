@@ -23,6 +23,7 @@ export default defineConfig({
     {
       ...imagemin(['./src/img/**/*.{jpg,png,jpeg}'], {
         destination: './src/img/webp/',
+        svgo: null,
         plugins: [imageminWebp({ quality: 86 })],
       }),
       apply: 'serve',
