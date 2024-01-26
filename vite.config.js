@@ -5,15 +5,10 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import * as svgSpritemap from 'vite-plugin-svg-spritemap';
 
 export default defineConfig({
   base: '/web-portfolio/',
   plugins: [
-    svgSpritemap({
-      glob: '/src/img/icons/*.svg',
-      output: '/public/spritemap.svg',
-    }),
     ViteImageOptimizer({
       png: {
         quality: 86,
