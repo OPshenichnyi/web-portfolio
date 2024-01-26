@@ -3,8 +3,10 @@ import imageminWebp from 'imagemin-webp';
 import path from 'path';
 import { defineConfig } from 'vite';
 import glob from 'fast-glob';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, URL } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   base: '/web-portfolio/',
