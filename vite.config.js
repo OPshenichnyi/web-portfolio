@@ -10,7 +10,27 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   base: '/web-portfolio/',
-  plugins: [],
+  plugins: [
+    ViteImageOptimizer({
+      png: {
+        quality: 86,
+      },
+      jpeg: {
+        quality: 86,
+      },
+      jpg: {
+        quality: 86,
+      },
+    }),
+    {
+      ...imagemin(['./src/img/**/*.{jpg,png,jpeg}'], {
+        destination: './src/img/webp/',
+        svgo: null,
+        plugins: [imageminWebp({ quality: 86 })],
+      }),
+      apply: 'serve',
+    },
+  ],
   build: {
     minify: false, // disable minification
     rollupOptions: {
