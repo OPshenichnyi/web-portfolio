@@ -5,9 +5,12 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-
+import svgLoader from 'vite-svg-loader';
 export default defineConfig({
   plugins: [
+    svgLoader({
+      defaultImport: 'url',
+    }),
     ViteImageOptimizer({
       png: {
         quality: 86,
