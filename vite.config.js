@@ -12,10 +12,7 @@ import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
 export default defineConfig({
   base: '/web-portfolio/',
   plugins: [
-    createSvgSpritePlugin({
-      include: '**/icons/**/*.svg',
-      symbolId: 'icon-[name]-[hash]',
-    }),
+    createSvgSpritePlugin(),
     ViteImageOptimizer({
       png: {
         quality: 86,
@@ -30,7 +27,6 @@ export default defineConfig({
     {
       ...imagemin(['./src/img/**/*.{jpg,png,jpeg}'], {
         destination: './src/img/webp/',
-        svgo: null,
         plugins: [imageminWebp({ quality: 86 })],
       }),
       apply: 'serve',
