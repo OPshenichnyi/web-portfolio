@@ -11,7 +11,7 @@ export default defineConfig({
   base: '/web-portfolio/',
   plugins: [
     svgSpritemap({
-      glob: '/src/img/icons*.svg',
+      glob: '/src/img/icons/*.svg',
       output: '/public/spritemap.svg',
     }),
     ViteImageOptimizer({
