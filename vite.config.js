@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import { svgSpritemap } from 'vite-plugin-svg-spritemap';
+import * as svgSpritemap from 'vite-plugin-svg-spritemap';
 
 export default defineConfig({
   base: '/web-portfolio/',
