@@ -5,12 +5,11 @@ import { defineConfig } from 'vite';
 import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import svgLoader from 'vite-svg-loader';
+import IconSpritePlugin from './plugins/vite-plugin-icon-sprite';
+
 export default defineConfig({
   plugins: [
-    svgLoader({
-      defaultImport: 'url',
-    }),
+    IconSpritePlugin(),
     ViteImageOptimizer({
       png: {
         quality: 86,
