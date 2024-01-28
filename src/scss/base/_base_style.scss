@@ -1,4 +1,5 @@
 body{
+    background-color: $black_primery;
     color: $white_color;
     font-family: 'Inter', sans-serif;
 }
@@ -12,10 +13,10 @@ p{
 }
 
 .section{
-    background-color: $black_primery;
     margin: auto;
     max-width: 375px;
     padding: 0 28px;
+   
 }
 
 @media (min-width: 768px) {

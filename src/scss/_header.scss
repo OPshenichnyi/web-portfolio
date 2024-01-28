@@ -8,10 +8,17 @@
 
 .phone{
     flex-shrink: 0;
+    stroke: #FFF;
+
 }
 
 .contact{
     font-style: normal;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .address{
@@ -20,10 +27,11 @@
     gap: 5px;
 }
 
-.burger-menu{
-    background-image: url('/public/sprite.svg');
+.burger-menu {
+    flex-shrink: 0;
+    stroke: $white_color;
 }
 
-.burger-menu{
-   background-color: red;
+.burger-menu :hover{
+    stroke: $orange_accent;
 }
