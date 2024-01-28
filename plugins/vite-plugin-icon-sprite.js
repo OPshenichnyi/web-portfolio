@@ -4,7 +4,7 @@ import path from 'path';
 export default function IconSpritePlugin() {
   async function generateIconSprite() {
     // Read the SVG files in the static/icons folder
-    const iconsDir = path.join(process.cwd(), 'public', 'icons');
+    const iconsDir = path.join(process.cwd(), 'src', 'icons');
     const files = await fs.readdir(iconsDir);
     let symbols = '';
 
@@ -21,7 +21,7 @@ export default function IconSpritePlugin() {
     }
 
     // Write the SVG sprite to a file in the static folder
-    const sprite = `<svg width="0" height="0" style="display: none">\n\n${symbols}</svg>`;
+    const sprite = `<svg width="100" height="100" style="display: none">\n\n${symbols}</svg>`;
     await fs.writeFile(
       path.join(process.cwd(), 'public', 'icon-sprite.svg'),
       sprite
