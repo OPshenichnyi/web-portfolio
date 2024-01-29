@@ -385,9 +385,9 @@ p {
      -moz-box-pack: center;
           justify-content: center;
   -webkit-box-align: end;
-  -webkit-align-items: end;
+  -webkit-align-items: flex-end;
      -moz-box-align: end;
-          align-items: end;
+          align-items: flex-end;
   width: 155px;
   height: 75px;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -503,6 +503,12 @@ p {
 }
 .item-contacts-link:last-child {
   margin-bottom: 0;
+}
+.linkedin {
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+     -moz-box-align: end;
+          align-items: end;
 }
 .contacts {
   padding-bottom: 40px;
