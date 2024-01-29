@@ -1,0 +1,26 @@
+.footer{
+   background: $grey_footer; 
+   color: $black_standart;
+}
+
+.wrap-footer{
+    padding-top: 24px;
+    padding-bottom: 75px;
+}
+
+.list-navigation-footer{
+    text-align: center;
+}
+
+.item-navigation{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.item-navigation:last-child{
+    margin-bottom: 48px;
+}
