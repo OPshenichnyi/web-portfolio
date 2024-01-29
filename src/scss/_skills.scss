@@ -1,0 +1,51 @@
+.section-skills{
+    margin-bottom: 36px;
+}
+.section-skills .name-section{
+    margin-bottom: 44px;
+}
+
+.name-skill{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.list-hard-skills .hard-skill:nth-child(3) .name-skill,
+.list-hard-skills .hard-skill:nth-child(4) .name-skill {
+  font-size: 18px;
+}
+
+.list-hard-skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 9px;
+    row-gap: 36px;
+}
+.hard-skill{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    width: 155px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: 12px;
+    background: $black_about;
+    padding-bottom: 11px;
+}
+
+.circle-skill{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -28px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: $grey_fill;
+    
+}

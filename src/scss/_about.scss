@@ -1,10 +1,8 @@
 .about{
     position: relative;
+    margin-bottom: 36px;
 }
-.wrap-about{
-    position: absolute;
-    top: -38px;
-}
+
 .container-about{
     display: block;
     position: relative;  
@@ -111,64 +109,9 @@
     color: $black_primery;  
 }
 
-
 .item-skills:not(:last-child){
     margin-bottom: 2px;
 }
-//  === ====== SKILLS ====== ===
-.title-soft-skils{
-    color: $orange_accent;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-    
-}
-.skills{
-    display: flex;
-    justify-content: center;
-}
-
-.soft-skills-wrap{
-    position: relative;
-    top: -12px;
-    margin: auto;
-    width: 220px;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    z-index: auto;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #FCFCFC 0.04%, #A7A7A7 99.94%);
-}
-.soft-skills-wrap::after{
-    content: '';
-    position: absolute;
-    z-index: -1;
-    bottom: -8px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    height: 90px; 
-    border-radius: 10px;
-    background: linear-gradient(90deg, #E7E5E5 0.04%, #878787 99.94%);
-}
-
-.item-skills{
-    font-size: 8px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    color: $black_primery;
-    
-}
-.item-skills:not(:last-child){
-    margin-bottom: 2px;
-}
-
 //  === ====== Media ====== ===
 
 @media (max-width: 370px) {

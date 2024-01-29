@@ -1,0 +1,27 @@
+.portfolio{
+    position: relative;
+}
+
+.portfolio .name-section{
+    margin-bottom: 16px;
+}
+
+.symbol-dev-porfolio{
+    position: absolute;
+    top: -8px;
+    right: 30px;
+    transform: rotate(23deg);
+}
+
+.progect-foto{
+    margin-bottom: 8px;
+}
+
+.name-progect{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
