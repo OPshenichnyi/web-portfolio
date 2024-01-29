@@ -1,5 +1,5 @@
-<svg id="telegram" xmlns="http://www.w3.org/2000/svg" width="29" height="22" viewBox="0 0 29 22" fill="none">
-  <path d="M26.0593 0.769931L1.80681 9.12664C0.576632 9.55049 0.596889 10.192 1.85164 10.5523L7.30023 11.9596L10.1642 19.3523C10.5988 20.4743 11.7469 20.7334 12.7155 19.9285L16.3593 16.9001L21.4798 20.622C22.5203 21.3504 23.5853 20.9932 23.8466 19.8285L27.8204 2.11711C28.0817 0.952382 27.2893 0.346228 26.0593 0.769931Z" stroke="#E6EAE9" stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M7.37341 11.9256L21.9684 5.19513L12.6077 14.1733L10.9516 20.2278" stroke="#E6EAE9" stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M12.6519 14.2052L21.4354 20.5894" stroke="#E6EAE9" stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg id="telegram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 22" fill="none">
+  <path d="M26.0593 0.769931L1.80681 9.12664C0.576632 9.55049 0.596889 10.192 1.85164 10.5523L7.30023 11.9596L10.1642 19.3523C10.5988 20.4743 11.7469 20.7334 12.7155 19.9285L16.3593 16.9001L21.4798 20.622C22.5203 21.3504 23.5853 20.9932 23.8466 19.8285L27.8204 2.11711C28.0817 0.952382 27.2893 0.346228 26.0593 0.769931Z"  stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7.37341 11.9256L21.9684 5.19513L12.6077 14.1733L10.9516 20.2278"  stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.6519 14.2052L21.4354 20.5894"  stroke-width="0.876374" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

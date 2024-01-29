@@ -487,6 +487,10 @@ p {
   align-items: center;
 }
 
+.phone-contacts {
+  stroke: #E6EAE9;
+}
+
 .item-contacts-link:last-child {
   margin-bottom: 0;
 }
@@ -506,7 +510,7 @@ p {
 
 .wrap-footer {
   padding-top: 24px;
-  padding-bottom: 75px;
+  padding-bottom: 25px;
 }
 
 .list-navigation-footer {
@@ -524,4 +528,49 @@ p {
 
 .item-navigation:last-child {
   margin-bottom: 48px;
+}
+
+.svg-phone-footer {
+  stroke: #000000;
+}
+
+.phone-footer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.svg-footer {
+  stroke: #000000;
+}
+
+.cv {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.small-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
