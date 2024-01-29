@@ -382,7 +382,7 @@ p {
   display: flex;
   position: relative;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   width: 155px;
   height: 75px;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -489,6 +489,10 @@ p {
 
 .item-contacts-link:last-child {
   margin-bottom: 0;
+}
+
+.linkedin {
+  align-items: end;
 }
 
 .contacts {
