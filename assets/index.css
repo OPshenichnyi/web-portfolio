@@ -169,7 +169,6 @@ p {
           justify-content: space-between;
   justify-items: baseline;
   padding-top: 20px;
-  padding-bottom: 24px;
 }
 .phone {
   -webkit-flex-shrink: 0;
@@ -205,6 +204,7 @@ p {
 }
 .hero {
   position: relative;
+  margin: auto;
   max-width: 320px;
   bottom: -38px;
 }
@@ -269,6 +269,7 @@ p {
   display: -webkit-flex;
   display: -moz-box;
   display: flex;
+  margin: auto;
   position: relative;
   z-index: 1;
   max-width: 320px;
@@ -444,6 +445,7 @@ p {
 }
 .item-prew-portfolio {
   margin-bottom: 16px;
+  text-align: center;
 }
 .btn-view-all {
   display: block;
@@ -515,6 +517,9 @@ p {
 }
 .contacts {
   padding-bottom: 40px;
+}
+.stroke-svg {
+  stroke: #FFFFFF;
 }
 .footer {
   background: #E3E3E3;
