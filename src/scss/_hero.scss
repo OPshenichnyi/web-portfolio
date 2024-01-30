@@ -1,6 +1,5 @@
 .hero{
     position: relative;
- 
     margin: auto;
     max-width: 320px;
     bottom: -38px;
@@ -14,4 +13,13 @@
     position: absolute;
     left: -11px;
     top: -9px;
+}
+
+@media (min-width: 768px) {
+.img-hero{
+    width: 380px;
+}
+.hero{
+   max-width: 380px; 
+}
 }

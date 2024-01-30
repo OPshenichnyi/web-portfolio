@@ -121,3 +121,25 @@
   }
 }
 
+@media (min-width: 768px) {
+    .about-title{
+        width: 295px;
+        padding: 14px;
+    }
+    .wrap-description{
+        max-width: 380px;
+    }
+    .container-about::after{
+        width: 335px;
+    }
+    .soft-skills-wrap{
+        width: 280px;
+    }
+    .soft-skills-wrap::after{
+        width: 260px;
+    }
+    .item-skills{
+        margin-bottom: 8px;
+    }
+
+}
