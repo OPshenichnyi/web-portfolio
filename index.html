@@ -5,14 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WEB DEV</title>
-  <script type="module" crossorigin src="/web-portfolio/assets/index-DWidIoWg.js"></script>
+  <script type="module" crossorigin src="/web-portfolio/assets/index-ec5954z-.js"></script>
   <link rel="stylesheet" crossorigin href="/web-portfolio/assets/index.css">
 </head>
 
 <body>
 <header class="section header">
     <div class="container head">
-      <button type="button" class="btn-mobile-menu">
+      <button data-modal-open type="button" class="btn-mobile-menu">
         <svg width="27" height="20" class="burger-menu">
         <use  xlink:href="/web-portfolio/icon-sprite.svg#burger"></use></svg>
       </button>
@@ -24,6 +24,55 @@
     </address>
     </div>
 </header>
+<nav data-modal class="section backdrop is-hidden">
+  <div class="container-nav section">
+    <div class="menu-nav">
+      <button data-modal-close class="btn-close-modal">
+        <svg classs="icon-close" width="26" height="26">
+          <use xlink:href="/web-portfolio/icon-sprite.svg#icon-close"/>
+        </svg>
+      </button>
+      <ul class="nav-list">
+      <li class="item-nav"><a href="#section-about">about me</a></li>
+      <li class="item-nav"><a href="#section-skills">skills</a></li>
+      <li class="item-nav"><a href="#section-portfolio">portfolio</a></li>
+      <li class="item-nav"><a href="#section-contacts">contacts</a></li>
+      </ul>
+      <ul class="social-link-nav">
+      <li class="item-social-nav">
+        <a class="link link-social-nav" href="https://www.linkedin.com/in/oleksandrpshenychnyi" target="_blank">
+          <svg width="24" height="24" class="svg-nav">
+            <use  xlink:href="/web-portfolio/icon-sprite.svg#linkedin"></use> 
+          </svg>
+        </a>
+      </li>
+      <li class="item-social-nav">
+        <a class="link link-social-nav" href="https://github.com/OPshenichnyi" target="_blank">
+          <svg width="24" height="24" class="svg-nav">
+            <use  xlink:href="/web-portfolio/icon-sprite.svg#git"></use> 
+          </svg>
+        </a>
+      </li>
+      <li class="item-social-nav">
+        <a class="link link-social-nav" href="https://t.me/Olexander_PS" target="_blank">
+          <svg width="24" height="24" class="svg-nav">
+            <use  xlink:href="/web-portfolio/icon-sprite.svg#telegram"></use> 
+          </svg>
+        </a>
+      </li>
+      <li class="item-social-nav">
+        <a class="link link-social-nav" href="https://drive.google.com/file/d/1CNA_8Cz9YR9Yy12TpgEq3WJWfHn1S1zJ/view?usp=sharing" target="_blank">
+          CV
+        </a>
+      </li>
+    </ul>
+    </div>
+    <div class="wrap-name-nav">
+      <span class="name-nav">Oleksandr <br> pshenychnyi</span>
+      <h3 class="nav-profession">fullstack developer</h3>
+    </div>
+  </div>
+</nav>
 <main>
 <section id="section-about" class="section hero-style">
     <div class="container hero">
