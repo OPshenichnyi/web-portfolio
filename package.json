@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "prettier": "prettier",
+    "format": "prettier --write \"*.html\"",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
     "dev": "vite",
