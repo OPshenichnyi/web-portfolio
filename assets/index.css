@@ -283,7 +283,6 @@ p {
   text-align: start;
 }
 .about-description {
-  white-space: pre-wrap;
   line-height: 1.5;
   font-size: 12px;
   font-style: normal;
